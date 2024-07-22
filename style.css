@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./istockphoto-1197078040-170667a.webp);
+}
+
+.container {
+    position: relative;
+    top: 50px;
+    margin: 20px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    width: 380px;
+    height: 500px;
+    background-color: antiquewhite;
+    margin: auto;
+    box-shadow: 5px 5px 5px grey;
+    background-image: url(./6789451-resumo-preto-sexta-feira-papel-de-parede-luxo-fundo-modelo-cor-arte-modelo-negocio-escuro-vetor.jpg);
+    background-size: cover; /* Ensures the background image covers the container */
+    background-position: center; /* Centers the background image */
+    color: beige; 
+    border-radius: 20px;
+}
+
+header {
+    position: relative;
+}
+
+img {
+   
+    margin: 40px;
+    border-radius: 30px;
+    box-shadow: 2px 1px 2px;
+}
+
+p {
+    position: absolute;
+    left: 25px;
+    bottom: 8px;
+    font-size: 14px;
+}
+
+
+
+.container:hover {
+    box-shadow: 5px 5px 5px;
+    cursor: crosshair;
+    background-size: contain; /* Adjusts the background size to fit the container */
+}
+
+.container2 {
+    float: inline-end;
+}
+
+ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.img2:hover {
+    animation: pulse 1s infinite;
+    padding: 8px;
+    background-color:white;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+p:hover {
+    color: yellow;
+    animation: pulse 2s infinite;
+}
+
